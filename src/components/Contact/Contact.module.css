@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+.info {
+  display: grid;
+}
+.name {
+  font-weight: 700;
+}
+.number {
+  color: #555;
+}
+.btn {
+  padding: 6px 10px;
+  border: 1px solid #bbb;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #e2e2e2;
+}
